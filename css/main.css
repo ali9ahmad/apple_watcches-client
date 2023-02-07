@@ -90,6 +90,10 @@ a{
 
 /* SITE HEADER STYLES START */
 
+.site-header {
+    margin-bottom: 140px;
+}
+
 .site-header__wrapper {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -105,6 +109,7 @@ a{
 
 .site-nav__list {
     display: flex;
+    align-items: center;
 }
 
 .site-nav__item:not(:last-child) {
@@ -132,3 +137,62 @@ a{
 }
 
 /* /SITE HEADER STYLES END */
+/* ----------------------- */
+/* HERO SECTION STYLES START */
+
+.hero-section {
+    position: relative;
+    margin-bottom: 68px;
+    padding-bottom: 185px;
+    border-bottom: 2px solid #ddd;
+}
+
+.hero__image {
+    width: 587px;
+    position: absolute;
+    top: -89px;
+    right: calc(50% - 815px);
+}
+
+.hero__wrapper--start {
+    width: 490px;
+}
+
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000;
+}
+
+.hero__desc {
+    width: 450px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777;
+    border-left: 3px solid #888888;
+}
+
+.site-btns {
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    background-color: #ea625c;
+}
+
+.hero-link {
+    padding-right: 38.5px;
+    padding-left: 38.5px;
+}
+
+/* /HERO SECTION STYLES END */
