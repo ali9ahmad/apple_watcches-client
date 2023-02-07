@@ -155,11 +155,11 @@ a{
     right: calc(50% - 835px);
 }
 
-.hero__wrapper--start {
+.site__wrapper--start {
     width: 490px;
 }
 
-.hero__title {
+.site__title {
     margin-top: 0;
     margin-bottom: 30px;
     font-weight: 700;
@@ -168,7 +168,7 @@ a{
     color: #000;
 }
 
-.hero__desc {
+.site__desc {
     margin-top: 0;
     margin-bottom: 30px;
     padding-left: 40px;
@@ -258,3 +258,28 @@ a{
 }
 
 /* OFFER SECTION STYLES END */
+/* ------------------------ */
+/* QUALITY SECTION STYLES START */
+
+.qlty-section {
+    position: relative;
+    margin-bottom: 176px;
+}
+
+.qlty__link {
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.qlty__image {
+    position: absolute;
+    width: 400px;
+    height: 599.93px;
+    top: -110px;
+    right: calc(50% - 500px);
+}
+/* /QUALITY SECTION STYLES END */
+/* --------------------------- */
+/* FOOTER STYLES START */
+
+/* /FOOTER STYLES END */
