@@ -88,3 +88,47 @@ a{
 
 /* -------------------------- */
 
+/* SITE HEADER STYLES START */
+
+.site-header__wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header__logo--img {
+    width: 35px;
+    height: 42px;
+}
+
+.site-nav__list {
+    display: flex;
+}
+
+.site-nav__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.site-nav__item:nth-child(4) {
+    margin-right: 40px;
+}
+
+.site-nav__link {
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #333;
+}
+
+.site-nav__item:last-child .site-nav__link {
+    padding-bottom: 6px;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #666;
+    border-bottom: 1px solid #333;
+}
+
+/* /SITE HEADER STYLES END */
