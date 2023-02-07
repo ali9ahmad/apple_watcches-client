@@ -149,9 +149,10 @@ a{
 
 .hero__image {
     width: 587px;
+    height: 565px;
     position: absolute;
     top: -89px;
-    right: calc(50% - 815px);
+    right: calc(50% - 835px);
 }
 
 .hero__wrapper--start {
@@ -168,7 +169,6 @@ a{
 }
 
 .hero__desc {
-    width: 450px;
     margin-top: 0;
     margin-bottom: 30px;
     padding-left: 40px;
@@ -196,3 +196,65 @@ a{
 }
 
 /* /HERO SECTION STYLES END */
+/* ------------------------ */
+/* OFFER SECTION STYLES START */
+
+.info-section {
+    margin-bottom: 246px;
+}
+
+.info__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__item {
+    width: 280px;
+}
+
+.info__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #222;
+}
+
+.info__desc {
+    /* position: relative; */
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 160%;
+    color: #333;
+}
+
+.info__item:not(:last-child)::after {
+    /* margin-top: 20px; */
+    display:block;
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+    box-shadow: 18px 0px 0px 0px #ddd, 36px 0px 0px 0px #ddd;
+    content: "";
+}
+
+.info__link {
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ea625c;
+}
+
+.info__link::before {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 0px;
+    border: 2px solid #ea625c;
+    content: "";
+}
+
+/* OFFER SECTION STYLES END */
