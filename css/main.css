@@ -281,5 +281,37 @@ a{
 /* /QUALITY SECTION STYLES END */
 /* --------------------------- */
 /* FOOTER STYLES START */
+.footer-bg {
+    width: 100%;
+    /* max-width:1250px; */
+    height: 830px;
 
+}
+
+.site-footer {
+    padding-top: 240px;
+    padding-right: 125px;
+    padding-bottom: 550px;
+    padding-left: 923px;
+    background-image: url(../images/4_runners_opt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__wrapper--end {
+    width: 490px;
+}
+
+.footer__title {
+    color: #fff;
+}
+
+.footer__desc {
+    color: #fff;
+}
+
+.footer__link {
+    padding-right: 46px;
+    padding-left: 46px;
+}
 /* /FOOTER STYLES END */
